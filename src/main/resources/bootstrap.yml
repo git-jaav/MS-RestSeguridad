@@ -10,7 +10,7 @@ spring:
 spring:
   profiles: dev
   application:
-    name: seguridadDev
+    name: seguridadGeneral
     
 ---
 spring:
