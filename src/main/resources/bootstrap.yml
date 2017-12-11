@@ -1,10 +1,15 @@
+
+##Ejemplo con el GATEWAY
+## http://192.168.1.115:8000/api/seguridad-service/swagger-ui.html#!/usuario-controller/listAllUsersUsingGET
 ---
 spring:
   profiles:
     active: dev
   cloud:
     config:
-      uri: http://localhost:8001
+      #variar URI (Pruebas)
+      #uri: http://localhost:8001
+      uri: http://192.168.1.115:8001
   
 ---
 spring:
